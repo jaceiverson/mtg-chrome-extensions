@@ -7,16 +7,16 @@
         "tabs"
     ],
     "action": {
-        "default_icon": "icon.png"
+        "default_icon": "./icons/scryfall-edhrec.png"
     },
     "background": {
         "service_worker": "background.js"
     },
     "icons": {
-        "16": "icon16.png",
-        "32": "icon32.png",
-        "48": "icon48.png",
-        "128": "icon128.png",
-        "512": "icon512.png"
+        "16": "./icons/scryfall-edhrec16.png",
+        "32": "./icons/scryfall-edhrec32.png",
+        "48": "./icons/scryfall-edhrec48.png",
+        "128": "./icons/scryfall-edhrec128.png",
+        "512": "./icons/scryfall-edhrec512.png"
     }
 }
