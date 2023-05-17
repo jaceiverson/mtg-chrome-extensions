@@ -1,0 +1,61 @@
+body {
+    min-width: 500px;
+    max-width: 800px;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    background-color: #2B253A;
+    color: white;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+#checkboxesContainer {
+    width: 100%;
+}
+
+.checkboxSection,
+.radioSection {
+    margin-top: 20px;
+}
+
+.checkboxSection label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.radioSection label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#generateButton {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #2B253A;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+
+#clearButton {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    border-radius: 2px;
+}
+
+.separator {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scryfall Random Card Generator</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+    <h1>Scryfall Random Card Generator</h1>
+    <div id="typeList">
+        <h2>Card Type</h2>
+        <label>
+            <input type="checkbox" id="instantCheckbox" name="cardType" value="Instants">
+            Instants
+        </label>
+        <label>
+            <input type="checkbox" id="sorceryCheckbox" name="cardType" value="Sorceries">
+            Sorceries
+        </label>
+        <label>
+            <input type="checkbox" id="enchantmentCheckbox" name="cardType" value="Enchantments">
+            Enchantments
+        </label>
+        <label>
+            <input type="checkbox" id="artifactCheckbox" name="cardType" value="Artifacts">
+            Artifacts
+        </label>
+        <label>
+            <input type="checkbox" id="creatureCheckbox" name="cardType" value="Creature">
+            Creature
+        </label>
+        <div class="radioSection">
+            <label>
+                <input type="radio" name="typeFilter" value="AND" checked>
+                AND
+            </label>
+            <label>
+                <input type="radio" name="typeFilter" value="OR">
+                OR
+            </label>
+        </div>
+    </div>
+    <hr class="separator">
+    <div id="colorList">
+        <h2>Card Color</h2>
+        <label>
+            <input type="checkbox" id="blueCheckbox" name="cardColor" value="Blue">
+            Blue
+        </label>
+        <label>
+            <input type="checkbox" id="blackCheckbox" name="cardColor" value="Black">
+            Black
+        </label>
+        <label>
+            <input type="checkbox" id="greenCheckbox" name="cardColor" value="Green">
+            Green
+        </label>
+        <label>
+            <input type="checkbox" id="redCheckbox" name="cardColor" value="Red">
+            Red
+        </label>
+        <label>
+            <input type="checkbox" id="whiteCheckbox" name="cardColor" value="White">
+            White
+        </label>
+        <div class="radioSection">
+            <label>
+                <input type="radio" name="colorFilter" value="AND" checked>
+                AND
+            </label>
+            <label>
+                <input type="radio" name="colorFilter" value="OR">
+                OR
+            </label>
+        </div>
+    </div>
+    <hr class="separator">
+    <div id="isCommanderSection">
+        <h2>Filter For Legendaries Only</h2>
+        <label>
+            <input type="checkbox" id="chkCommander">
+            Commanders Only
+        </label>
+        <!-- Clear button -->
+        <button id="clearButton">Clear All Inputs</button>
+        <!-- Generate button -->
+        <button id="generateButton">Generate Random Card</button>
+        <script src="popup.js"></script>
+</body>
+
+</html>
