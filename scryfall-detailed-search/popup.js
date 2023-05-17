@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Perform API request and open new tab with the retrieved URL
         let apiUrl = "https://api.scryfall.com/cards/random?q=" + query;
-        alert(apiUrl);
+        //alert(apiUrl);
         // Append selected categories to the API query
 
         fetch(apiUrl)
