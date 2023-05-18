@@ -1,10 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "Scryfall Extension",
+    "name": "Scryfall - Random Card Generator",
     "description": "Uses Scryfall's API to find a random cards",
     "version": "1.0",
     "permissions": [
-        "tabs",
         "storage"
     ],
     "action": {
