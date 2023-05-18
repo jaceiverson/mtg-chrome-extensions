@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Head to EDHREC",
+    "name": "Scryfall to EDHREC",
     "description": "If you are on scryfall.com, this will take you to that card's page on EDHREC.",
     "version": "1.0",
     "permissions": [
