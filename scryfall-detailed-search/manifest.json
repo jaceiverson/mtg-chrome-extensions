@@ -3,9 +3,6 @@
     "name": "Scryfall - Random Card Generator",
     "description": "Uses Scryfall's API to find a random cards",
     "version": "1.0",
-    "permissions": [
-        "storage"
-    ],
     "action": {
         "default_popup": "popup.html",
         "default_icon": "./icons/icon.png"
